@@ -29,7 +29,7 @@
 			<transform>
 				<constant>hi</constant>
 			</transform>
-			<!-- <to uri="activemq:queue:inputqueue" /> -->
+			<to uri="activemq:queue:inputqueue" />
 			<to uri="myProcessor" />
 		</route>
 	</camelContext>
